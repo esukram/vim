@@ -104,7 +104,7 @@ set backupdir=~/.vim/tmp
 set directory=~/.vim/tmp
 let g:netrw_home=expand("~/.vim/tmp")
 
-set textwidth=80
+set textwidth=120
 set colorcolumn=100
 highlight ColorColumn ctermbg=236 guibg=#2e3330
 
