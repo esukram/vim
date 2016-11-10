@@ -73,8 +73,9 @@ set scrolloff=5
 " minimal number of screen columns to keep to the left and to the right of the cursor
 set sidescrolloff=3
 
-
-" Folding stuff
+"""""""""""""""""
+" Folding stuff "
+"""""""""""""""""
 " fold only sub foldings
 set foldlevelstart=1
 " do not fold less than 10 lines
@@ -101,6 +102,17 @@ set history=1000
 " central backup dir
 set backupdir=~/.vim/tmp
 set directory=~/.vim/tmp
+let g:netrw_home=expand("~/.vim/tmp")
+
+set textwidth=80
+set colorcolumn=100
+highlight ColorColumn ctermbg=236 guibg=#2e3330
+
+""""""""""""""""
+" auto actions
+""""""""""""""""
+" save on focus lost
+au FocusLost * :wa
 
 """"""""""""""""
 " key bindings "
@@ -113,3 +125,4 @@ vmap <C-c> "+yi
 vmap <C-x> "+c
 vmap <C-v> c<ESC>"+p
 imap <C-v> <C-r><C-o>+
+
