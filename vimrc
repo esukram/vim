@@ -5,6 +5,10 @@ execute pathogen#infect()
 "Important for terminal vim to work in cygwin.
 set term=xterm-256color
 
+" mitigate Windows/cygwin
+scriptencoding utf-8
+set encoding=utf-8
+
 " select eye-friendly colors
 colorscheme zenburn
 
