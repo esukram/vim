@@ -13,3 +13,9 @@
 [submodule "bundle/vim-sunburst"]
 	path = bundle/vim-sunburst
 	url = https://github.com/sickill/vim-sunburst.git
+[submodule "bundle/vim-terraform"]
+	path = bundle/vim-terraform
+	url = https://github.com/hashivim/vim-terraform.git
+[submodule "bundle/vim-signify"]
+	path = bundle/vim-signify
+	url = https://github.com/mhinz/vim-signify.git
