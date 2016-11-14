@@ -1,5 +1,9 @@
 " load pathogen
+filetype off
 execute pathogen#infect()
+
+"Important for terminal vim to work in cygwin.
+set term=xterm-256color
 
 " select eye-friendly colors
 colorscheme zenburn
@@ -92,6 +96,8 @@ set wildmode=list:longest,full
 
 "show statusline
 set laststatus=2
+
+let g:airline_powerline_fonts = 1
 
 " set many undos
 set undolevels=1000
