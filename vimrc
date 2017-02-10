@@ -122,7 +122,7 @@ highlight ColorColumn ctermbg=236 guibg=#2e3330
 " auto actions
 """"""""""""""""
 " save on focus lost
-au FocusLost * :wa
+autocmd BufLeave,FocusLost * silent! wall
 
 """"""""""""""""
 " key bindings "
